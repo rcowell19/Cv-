@@ -51,6 +51,9 @@
     margin-top: 25px;
     margin-bottom: 40px;
 }
+.bg-color-contact{
+     background-color: #fff;
+}
 
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -324,4 +327,31 @@ footer {
 }
 .history-items{
     margin-bottom: 30px;
+}
+/* ----------------------------------------Contact form */
+
+.contact-heading{
+    font-family: "exo",sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-form{
+    margin:0 auto;
+    padding-top: 10px;
+    max-width: 70%;
+}
+button[type="submit"]{
+    margin-top:15px;
+    margin-bottom: 20px;
+    color:#fafafa;
+    background-color: #e84610;
+}
+@media(min-width:992px){
+    .center-form{
+    margin:0 auto;
+    padding-top: 30px;
+    min-height: 240px;
+    max-width: 50%;
+    }
 }
